@@ -673,7 +673,7 @@ section #photo {padding-top: 40px;}
 
 @keyframes loop{
   from{transform:translateX(-100%);}
-  to{transform:translateX(-350%);}
+  to{transform:translateX(0%);}
 }
 .item-ani:hover{animation-play-state:paused;}
 .item-ani{animation:loop 8s linear alternate infinite;}
