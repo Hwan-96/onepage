@@ -652,7 +652,7 @@ section #photo {padding-top: 40px;}
 .items {
   width: 1400px;
   height: 700px;
-  column-count: 6;
+  column-count: 3;
   column-gap: 30px;
   margin: auto;
   padding-bottom: 100px;
@@ -672,11 +672,11 @@ section #photo {padding-top: 40px;}
 }
 
 @keyframes loop{
-  from{transform:translateX(-100%);}
-  to{transform:translateX(0%);}
+  from{transform:translateX(0);}
+  to{transform:translateX(-1200%);}
 }
 .item-ani:hover{animation-play-state:paused;}
-.item-ani{animation:loop 8s linear alternate infinite;}
+.item-ani{animation:loop 25s linear infinite;}
 .item:hover img {transform: scale(1.2); animation-play-state:paused;}
 
 .view-btn{
